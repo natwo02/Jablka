@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang='pl'>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sklep</title>
+    <link rel="stylesheet" href="coś1.css">
+
+    <body>
+        <header>
+          <div>
+           <img src="apkoo.png">
+            <nav>
+                <ul>
+                  <li> <a href="coś.html">STRONA GŁÓWNA</a></li>
+                  <li> <a href="shop.html">SKLEP</a></li>
+                  <li> <a href="about.html">O NAS</a></li>
+
+                  <li> <a href="contact.html">KONTAKT</a></li>
+                  <li> <a href="parallax.html">PARALLAX</a></li>
+                    </div>
+              </ul>
+            </nav>
+        </header>
+
+        <div class="div2">
+        <head>
+            <h1 title="Sklep" align="center"> <b>Sklep</b> </h1>
+        </head>
+        <p class="class">
+            W naszym gospodarstwie produkujemy tylko jabłka następujących odmian:
+        </p>
+        <table>
+            <thead>
+                <tr style="text-align: center; ">
+                    <th>Odmiana</th>
+                    <th>Stopień miękości 1-10</th>
+                    <th>Stopień słodkości 1-10</th>
+                    <th>Cena za kilogram</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="text-align: center; ">
+                    <th>Antonówka
+                        <p><img src="https://www.delikatesyemis.pl/content/images/thumbs/0009962_jablka-antonowka-luz_550.jpeg" height=150 alt="antonówka"> </p>
+                        <map name="clickmap">
+                            <area shape="circle" coords="100,50,15" href="https://pl.wikipedia.org/wiki/Anton%C3%B3wka_(jab%C5%82o%C5%84)">
+                        </map>
+                    </th>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>3zł</td>
+                </tr>
+                <tr style="text-align: center; ">
+                    <th>Gala
+                        <p><img src="https://a.allegroimg.com/s512/1152d0/6d67e9bf4d8798b4938586fccbd0/Swieze-jablka-GALA-1-kg-Polskie-soczyste-pycha" height=150 alt="gala"> </p>
+                    </th>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>2,5zł</td>
+                </tr>
+                <tr style="text-align: center; ">
+                    <th>Lobo
+                        <p><img src="https://pl.all.biz/img/pl/catalog/295197.jpeg" height=150 alt="lobo"> </p>
+                    </th>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>2,5zł</td>
+                </tr>
+                <tr style="text-align: center; ">
+                    <th>Golden Delicious
+                        <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvxg3NHw80c109uD_dEV77ox4tlOY8878b_fT1V_nB_CZ8vaQS2-px1VyEnJKwE4R3-ig&usqp=CAU" height=150 alt="golden delicious"> </p>
+                    </th>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>4,5zł</td>
+                </tr>
+                <tr style="text-align: center; ">
+                    <th>Papierówka
+                        <p><img src="https://ocdn.eu/images/pulscms/YzA7MDA_/64e00f165c7e04701da0f666ddbbe0d2.jpg" height=150 alt="papierówka"> </p>
+                    </th>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>1,5zł</td>
+                </tr>
+                <tr style="text-align: center; ">
+                    <th>Ligol
+                        <p><img src="https://dodomku.pl/images/products/full/00055918.jpg?id=1468317410" height=150 alt="ligol"> </p>
+                    </th>
+                    <td>7</td>
+                    <td>6</td>
+                    <td>2zł</td>
+                </tr>
+                <tr style="text-align: center; ">
+                    <th>Reneta
+                        <p><img src="https://biosmaak.nl/wp-content/uploads/2018/10/jablko-szara-reneta.jpg" height=150 alt="reneta"> </p>
+                    </th>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>3zł</td>
+                </tr>
+                <tr style="text-align: center; ">
+                    <th>Szampion
+                        <p><img src="https://freshsklep.pl/wp-content/uploads/2020/05/jab%C5%82ko-champion.jpg" height=150 alt="szampion"> </p>
+                    </th>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>4zł</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom"></div>
+    
+    <script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+    
+    </body>
+    </html>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='pl'>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="coś1.css">
+
+    <body>
+        <header>
+          <div>
+           <img src="apkoo.png">
+            <nav>
+                <ul>
+                  <li> <a href="coś.html">STRONA GŁÓWNA</a></li>
+                  <li> <a href="shop.html">SKLEP</a></li>
+                  <li> <a href="about.html">O NAS</a></li>
+                  <li> <a href="contact.html">KONTAKT</a></li>
+                  <li> <a href="parallax.html">PARALLAX</a></li>
+                    </div>
+              </ul>
+            </nav>
+        </header>
+
+        <div class="div2">
+        <head>
+            <h1 title="Kontakt" align="center"> <b>Kontakt</b> </h1>
+        </head>
+        <p>Gala Mekintosz</p>
+        <p>ul. Kwitnąca 21</p>
+        <p>05-110 Jabłonna</p>
+        <p>tel. 123 456 789</p>
+        <p>e-mail. smacznejabłka@gmail.com</p>
+    </div>
+</body>
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom"></div>
+    
+    <script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+    
+    </body>
+    </html>
+
+</html>
