@@ -37,6 +37,12 @@ header li a {
   text-decoration: none;
   
 }
+body {
+  background-image: url(jabłka.jpeg); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
     .button {
       display: inline-block;
       border-radius: 4px;
